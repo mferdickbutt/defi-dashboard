@@ -1,0 +1,52 @@
+{
+    "THORChain": {
+        "key_metrics": {
+            "fees": "0.2% swap fee",
+            "liquidity": "Over $100M across multiple pools"
+        },
+        "unique_features": [
+            "Cross-chain swaps",
+            "Native asset support"
+        ],
+        "risks": [
+            "Smart contract vulnerabilities",
+            "Impermanent loss"
+        ],
+        "arbitrage_opportunities": [
+            "Higher liquidity on native assets compared to Rubic."
+        ]
+    },
+    "Synapse": {
+        "key_metrics": {
+            "fees": "0.05% bridge fee",
+            "APY": "10-20% on stablecoin pools"
+        },
+        "unique_features": [
+            "Cross-chain bridging",
+            "Native stablecoin minting"
+        ],
+        "risks": [
+            "Centralized bridge operator risks"
+        ],
+        "arbitrage_opportunities": [
+            "Bridge fee arbitrage with Rubic on smaller pools."
+        ]
+    },
+    "Rubic": {
+        "key_metrics": {
+            "fees": "0.15% swap fee",
+            "liquidity": "Lower than THORChain and Synapse"
+        },
+        "unique_features": [
+            "Cross-chain aggregation",
+            "Integrated token swaps"
+        ],
+        "risks": [
+            "Lower liquidity increases slippage risk",
+            "Dependency on external APIs"
+        ],
+        "arbitrage_opportunities": [
+            "Token price mismatches compared to Synapse."
+        ]
+    }
+}
